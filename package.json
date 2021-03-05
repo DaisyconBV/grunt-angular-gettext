@@ -8,10 +8,6 @@
     "email": "ruben@rocketeer.be",
     "url": "http://rocketeer.be"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rubenv/grunt-angular-gettext.git"
-  },
   "bugs": {
     "url": "https://github.com/rubenv/grunt-angular-gettext/issues"
   },
@@ -45,6 +41,6 @@
     "gettext"
   ],
   "dependencies": {
-    "angular-gettext-tools": "https://github.com/DaisyconBV/angular-gettext-tools.git#master"
+    "angular-gettext-tools": "git+https://github.com/DaisyconBV/angular-gettext-tools.git#master"
   }
 }
